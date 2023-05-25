@@ -1,5 +1,6 @@
 #include <iostream>
+#include "geo.hpp"
 
 int main() {
-    std::cout << "hello geo\n";
+    geo::hello();
 }
