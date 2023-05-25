@@ -1,9 +1,10 @@
 #include <iostream>
+#include "geo.hpp"
 
-namespace geo{
+_GEO_BEGIN
 
-    void hello() {
-        std::cout << "hello, this is geo\n";        
-    }
-
+void hello() {
+    std::cout << "hello, this is geo\n";        
 }
+
+_GEO_END
