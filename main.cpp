@@ -1,6 +1,6 @@
 #include <iostream>
-#include "geom.hpp"
+#include "geom.h"
 
 int main() {
-    geom::hello(); 
+    geom::Vec2d v1(0.1, 0.1);
 }
