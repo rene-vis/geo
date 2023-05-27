@@ -1,6 +1,6 @@
 #include <iostream>
-#include "geo.hpp"
+#include "geom.hpp"
 
 int main() {
-    geo::hello();
+    geom::hello(); 
 }

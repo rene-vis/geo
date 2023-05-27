@@ -1,10 +1,10 @@
 #include <iostream>
-#include "geo.hpp"
+#include "geom.hpp"
 
-_GEO_BEGIN
+_GEOM_BEGIN
 
 void hello() {
     std::cout << "hello, this is geo\n";        
 }
 
-_GEO_END
+_GEOM_END
