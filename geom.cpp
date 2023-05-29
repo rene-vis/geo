@@ -10,8 +10,12 @@ void hello() {
 Vec2d::Vec2d(double x, double y) :x(x), y(y) {
 }
 
-double Vec2d::Dot(Vec2d& v2) {
+double Vec2d::dot(Vec2d& v2) {
     return x * v2.x + y * v2.y;
+}
+
+double Vec2d::cross(Vec2d& v2) {
+    return x * v2.y - v2.x * y;
 }
 
 _GEOM_END
