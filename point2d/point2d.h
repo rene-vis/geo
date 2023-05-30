@@ -5,7 +5,7 @@ _GEOM_BEGIN
 
 class Point2d{
 public:
-    Point2d(double x, double y): x(x), y(y){};
+    Point2d(double x, double y);
 private:
     double x, y;
 };
