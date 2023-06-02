@@ -1,3 +1,4 @@
+#include <cmath>
 #include <iostream>
 #include "vec2d.h"
 
@@ -16,6 +17,10 @@ double Vec2d::dot(Vec2d& v2) {
 
 double Vec2d::cross(Vec2d& v2) {
     return x * v2.y - v2.x * y;
+}
+
+double Vec2d::norm() {
+    return sqrt(x * x) * sqrt(y * y);
 }
 
 _GEOM_END
